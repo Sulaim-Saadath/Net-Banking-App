@@ -19,20 +19,6 @@ The application demonstrates authentication, authorization, account management, 
 - [Project Overview](#-project-overview)
 - [Features](#-features)
 - [Technology Stack](#️-technology-stack)
-- [System Architecture](#-system-architecture)
-- [Security Architecture](#-security-architecture)
-- [Database Design](#️-database-design)
-- [Customer Module](#-customer-module)
-- [Teller Module](#-teller-module)
-- [Admin Module](#️-admin-module)
-- [Authentication Flow](#-authentication-flow)
-- [API Endpoints](#-api-endpoints)
-- [Project Structure](#-project-structure)
-- [Running the Project](#️-running-the-project)
-- [Testing](#-testing)
-- [Project Completion Status](#-project-completion-status)
-- [Interview Explanation](#-interview-explanation)
-- [Future Improvements](#-future-improvements)
 
 ---
 
