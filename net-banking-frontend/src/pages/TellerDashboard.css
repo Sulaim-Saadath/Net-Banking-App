@@ -1,0 +1,61 @@
+.teller-dashboard {
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.teller-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.teller-header h1 {
+  margin: 0;
+  color: #1f2937;
+}
+
+.teller-header p {
+  margin: 6px 0 0;
+  color: #6b7280;
+}
+
+.teller-header button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #dc2626;
+  color: white;
+  cursor: pointer;
+}
+
+.teller-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  padding: 40px;
+}
+
+.teller-card {
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.teller-card:hover {
+  transform: translateY(-3px);
+}
+
+.teller-card h2 {
+  margin-top: 0;
+  color: #1f2937;
+}
+
+.teller-card p {
+  color: #6b7280;
+}

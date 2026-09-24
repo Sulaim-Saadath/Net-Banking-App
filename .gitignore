@@ -1,0 +1,24 @@
+# Eclipse / STS
+.metadata/
+.settings/
+.classpath
+.project
+
+# Spring Boot / Maven
+Project/target/
+
+# Node / React
+net-banking-frontend/node_modules/
+net-banking-frontend/dist/
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

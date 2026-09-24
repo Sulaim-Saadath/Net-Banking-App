@@ -1,0 +1,256 @@
+/* ================================
+   ADMIN USERS
+================================ */
+
+.admin-users {
+  min-height: 100vh;
+  background: #f5f7fa;
+  color: #4e444b;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 42px 5%;
+  box-sizing: border-box;
+}
+
+/* ================================
+   HEADER
+================================ */
+
+.admin-users-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 30px;
+  margin-bottom: 26px;
+}
+
+.admin-users-header h1 {
+  margin: 0;
+
+  font-size: 27px;
+  font-weight: 600;
+
+  color: #4e444b;
+}
+
+.admin-users-header p {
+  margin: 7px 0 0;
+
+  font-size: 14px;
+
+  color: #777078;
+}
+
+/* ================================
+   BACK BUTTON
+================================ */
+
+.admin-back-button {
+  height: 38px;
+  padding: 0 17px;
+
+  border: 1px solid #2563eb;
+  border-radius: 7px;
+
+  background: #2563eb;
+  color: #ffffff;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.admin-back-button:hover {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+
+  box-shadow: 0 3px 8px rgba(37, 99, 235, 0.2);
+}
+
+/* ================================
+   USERS CARD
+================================ */
+
+.admin-users-card {
+  background: #ffffff;
+
+  border: 1px solid #e1e5ea;
+  border-radius: 9px;
+
+  overflow: hidden;
+
+  box-shadow: 0 3px 12px rgba(78, 68, 75, 0.04);
+}
+
+/* ================================
+   TABLE
+================================ */
+
+.admin-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.admin-users-table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  font-size: 13px;
+}
+
+.admin-users-table th {
+  padding: 16px 18px;
+
+  background: #ffffff;
+
+  border-bottom: 1px solid #e5e8ed;
+
+  text-align: left;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #6f6870;
+
+  white-space: nowrap;
+}
+
+.admin-users-table td {
+  padding: 17px 18px;
+
+  border-bottom: 1px solid #eef0f3;
+
+  color: #4e444b;
+
+  white-space: nowrap;
+}
+
+.admin-users-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.admin-users-table tbody tr:hover {
+  background: #f8f9fb;
+}
+
+/* ================================
+   VIEW DETAILS BUTTON
+================================ */
+
+.admin-view-button {
+  height: 34px;
+
+  padding: 0 14px;
+
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+
+  background: #2563eb;
+  color: #ffffff;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.admin-view-button:hover {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+
+  box-shadow: 0 3px 8px rgba(37, 99, 235, 0.2);
+}
+
+/* ================================
+   EMPTY STATE
+================================ */
+
+.admin-empty-state {
+  min-height: 200px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 25px;
+}
+
+.admin-empty-state h3 {
+  margin: 0 0 7px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  color: #5e565d;
+}
+
+.admin-empty-state p {
+  margin: 0;
+
+  font-size: 13px;
+
+  color: #858087;
+}
+
+/* ================================
+   LOADING / ERROR
+================================ */
+
+.admin-users-state {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f5f7fa;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+  color: #6f6870;
+}
+
+.admin-users-error {
+  color: #c62828;
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 700px) {
+  .admin-users {
+    padding: 30px 5%;
+  }
+
+  .admin-users-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .admin-users-header h1 {
+    font-size: 23px;
+  }
+
+  .admin-back-button {
+    width: 100%;
+  }
+}

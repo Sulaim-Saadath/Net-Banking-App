@@ -1,0 +1,147 @@
+.first-login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+  padding: 20px;
+}
+
+.first-login-container {
+  width: 400px;
+  padding: 36px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.first-login-container h1 {
+  margin: 0;
+  color: #1f2937;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.first-login-subtitle {
+  margin: 8px 0 22px;
+  color: #6b7280;
+  font-size: 14px;
+  text-align: center;
+}
+
+.first-login-info {
+  margin-bottom: 20px;
+  padding: 11px 12px;
+  border-radius: 7px;
+  background: #f3f4f6;
+  color: #4b5563;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Message */
+
+.first-login-message {
+  margin: 0 0 18px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: #fef2f2;
+  color: #b91c1c;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* Form */
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 7px;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 7px;
+  outline: none;
+  color: #1f2937;
+  background: #ffffff;
+  font-size: 14px;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.form-group input::placeholder {
+  color: #9ca3af;
+}
+
+.form-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* Password hint */
+
+.password-hint {
+  margin-top: -10px;
+  margin-bottom: 18px;
+  color: #6b7280;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Button */
+
+.first-login-container form button {
+  width: 100%;
+  padding: 11px;
+  margin-top: 4px;
+  border: none;
+  border-radius: 7px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.first-login-container form button:hover {
+  background: #1d4ed8;
+}
+
+/* Back to login */
+
+.back-login-text {
+  margin: 22px 0 0;
+  color: #6b7280;
+  font-size: 13px;
+  text-align: center;
+}
+
+.back-login-button {
+  width: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: none !important;
+  color: #2563eb !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+}
+
+.back-login-button:hover {
+  text-decoration: underline;
+}

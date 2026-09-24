@@ -1,0 +1,284 @@
+
+/* ================================
+   ADMIN DASHBOARD
+================================ */
+
+.admin-dashboard {
+    min-height: 100vh;
+    background: #f5f7fa;
+    color: #4e444b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ================================
+   HEADER
+================================ */
+
+.admin-header {
+    height: 68px;
+    width: 100%;
+
+    background: #ffffff;
+    border-bottom: 1px solid #e2e5ea;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 6%;
+    box-sizing: border-box;
+}
+
+.admin-header h1 {
+    margin: 0;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #4e444b;
+}
+
+.admin-header p {
+    margin: 4px 0 0;
+
+    font-size: 12px;
+    color: #6f6870;
+}
+
+
+/* ================================
+   LOGOUT BUTTON
+================================ */
+
+.admin-logout-button {
+    background: #ffffff;
+    color: #4e444b;
+
+    border: 1px solid #d5d9df;
+    border-radius: 5px;
+
+    padding: 8px 17px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.admin-logout-button:hover {
+    background: #f5f7fa;
+    border-color: #bfc5ce;
+}
+
+
+/* ================================
+   MAIN CONTENT
+================================ */
+
+.admin-dashboard {
+    padding-bottom: 60px;
+}
+
+.admin-welcome-card,
+.admin-actions {
+    width: 90%;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+
+/* ================================
+   WELCOME CARD
+================================ */
+
+.admin-welcome-card {
+    margin-top: 42px;
+
+    background: #ffffff;
+
+    border: 1px solid #e1e5ea;
+    border-radius: 9px;
+
+    padding: 25px 26px;
+
+    box-shadow: 0 3px 12px rgba(78, 68, 75, 0.04);
+}
+
+.admin-welcome-card h2 {
+    margin: 0 0 8px;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    color: #4e444b;
+}
+
+.admin-welcome-card p {
+    margin: 0;
+
+    font-size: 13px;
+    color: #777078;
+}
+
+
+/* ================================
+   ADMINISTRATION SECTION
+================================ */
+
+.admin-actions {
+    margin-top: 28px;
+}
+
+.admin-actions h2 {
+    margin: 0 0 17px;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    color: #4e444b;
+}
+
+
+/* ================================
+   ACTION GRID
+================================ */
+
+.admin-action-grid {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+    gap: 22px;
+}
+
+
+/* ================================
+   ACTION CARD
+================================ */
+
+.admin-action-card {
+    background: #ffffff;
+
+    border: 1px solid #e1e5ea;
+    border-radius: 9px;
+
+    padding: 25px 26px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 3px 12px rgba(78, 68, 75, 0.04);
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.admin-action-card:hover {
+    transform: translateY(-2px);
+
+    border-color: #d5d9df;
+
+    box-shadow: 0 5px 16px rgba(78, 68, 75, 0.08);
+}
+
+.admin-action-card h3 {
+    margin: 0 0 8px;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    color: #4e444b;
+}
+
+.admin-action-card p {
+    margin: 0 0 20px;
+
+    font-size: 13px;
+    line-height: 1.5;
+
+    color: #858087;
+}
+
+
+/* ================================
+   VIEW USERS BUTTON
+================================ */
+
+.admin-action-card button {
+    width: 125px;
+    height: 38px;
+
+    padding: 0;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    border: 1px solid #2563eb;
+    border-radius: 7px;
+
+    background: #2563eb;
+    color: #ffffff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.admin-action-card button:hover {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+
+    box-shadow: 0 3px 8px rgba(37, 99, 235, 0.2);
+}
+
+.admin-action-card button:active {
+    transform: translateY(1px);
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 600px) {
+
+    .admin-header {
+        height: 62px;
+        padding: 0 5%;
+    }
+
+    .admin-header h1 {
+        font-size: 16px;
+    }
+
+    .admin-welcome-card,
+    .admin-actions {
+        width: 92%;
+    }
+
+    .admin-welcome-card {
+        margin-top: 30px;
+        padding: 23px;
+    }
+
+    .admin-action-card {
+        padding: 23px;
+    }
+}
